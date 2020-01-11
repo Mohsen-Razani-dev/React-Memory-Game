@@ -1,0 +1,129 @@
+.gameContainer{
+    box-shadow:14px 20px 20px 4px rgba(123, 123, 123, 0.79);;
+    padding: 20px 40px;
+    display: inline-grid;
+    border-radius: 10px;
+    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+}
+.items{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    list-style: none;
+
+}
+.itemNEQ{
+    background-color: rgb(43,61,75);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+.itemNEQ:hover {
+    background-color: rgb(27, 38, 47);
+}
+
+.itemEQ{
+    outline: none;
+    background-color: rgba(255,200,124,1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.winner{
+    display: inline-grid;
+    height: 445px;
+    width: 445px;
+    text-align: center;
+    align-items: center;
+    align-content: space-evenly;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+.winner p {
+    font-size: 70px;
+    margin: 0 auto;
+}
+.winner span {
+    font-size: 40px;
+    margin: 0 auto;
+}
+.counter{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.hintCounter{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.BtnIconNEQ{
+    font-size: 55px;
+    color: rgba(255,200,124,1);
+}
+.BtnIconEQ{
+    font-size: 55px;
+    color: rgb(33, 21, 16);
+}
+.nameGame{
+    letter-spacing: 10px;
+    font-size:50px;
+    color: rgb(43,61,75);
+    font-weight:900;
+    font-family: Frozito;
+    padding-bottom: 20px;
+}
+.retryBtn {
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255,200,124,1);
+    font-size: 20px;
+}
+.LastMoveIcon{
+    font-size: 40px;
+    color: rgba(255,200,124,1);
+    padding-left: 15px;
+}
+.LastMoveTxt{
+    color: rgb(76,60,37);
+    font-size: 25px;
+    padding-top: 10px;
+}
+.LastMove{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hint{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.hintBtn{
+    padding: 5px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255,200,124,1);;
+}
+.hintMsg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 27px;
+    color: rgb(201, 158, 98);
+}
+.allmsg{
+    display: flex;
+    justify-content:space-between;
+}
