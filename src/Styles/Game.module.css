@@ -14,8 +14,7 @@
     list-style: none;
 
 }
-.itemNEQ{
-    background-color: rgb(43,61,75);
+.item{
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -23,28 +22,21 @@
     border: none;
     outline: none;
 }
-.itemNEQ:hover {
+#itemNEQ{
+    background-color: rgb(43,61,75);
+}
+#itemNEQ:hover {
     background-color: rgb(27, 38, 47);
 }
-
-.itemEQ{
-    outline: none;
+#itemEQ{
     background-color: rgba(255,200,124,1);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
 }
 .winner{
     display: inline-grid;
     height: 445px;
     width: 445px;
     text-align: center;
-    align-items: center;
     align-content: space-evenly;
-    align-self: center;
-    justify-content: center;
     justify-items: center;
     justify-self: center;
 }
